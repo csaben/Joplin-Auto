@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/arelius/workspace/joplin-server/joplin_server/send.py", line 8, in <module>
+    import joplin_server.config as config
+ModuleNotFoundError: No module named 'joplin_server'

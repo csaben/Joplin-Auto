@@ -1,0 +1,5 @@
+simplegmail
+pandas
+fire
+pypandoc
+joppy

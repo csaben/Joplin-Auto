@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+joplin_server/build.py
+joplin_server/config.py
+joplin_server/custom_headers.py
+joplin_server/headers.py
+joplin_server/joplin_utils.py
+joplin_server/note.py
+joplin_server/note_utils.py
+joplin_server/send.py
+joplin_server/your_config.py
+joplin_server/your_mailer.py
+joplin_server.egg-info/PKG-INFO
+joplin_server.egg-info/SOURCES.txt
+joplin_server.egg-info/dependency_links.txt
+joplin_server.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/arelius/workspace/joplin-server/send.py", line 87, in <module>
+    Mailman.send_email(subject=f"Yesterday Progress | {percent:.2f}% | {frac}", body=html)
+  File "/home/arelius/workspace/joplin-server/Mailman.py", line 6, in send_email
+    gmail = Gmail("/home/arelius/workspace/joplin-server/client_secret.json") # will open a browser window to ask you to log in and authenticate
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arelius/miniconda3/envs/tmp/lib/python3.11/site-packages/simplegmail/gmail.py", line 99, in __init__
+    self.creds = tools.run_flow(flow, store, flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arelius/miniconda3/envs/tmp/lib/python3.11/site-packages/oauth2client/_helpers.py", line 133, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arelius/miniconda3/envs/tmp/lib/python3.11/site-packages/oauth2client/tools.py", line 240, in run_flow
+    code = input('Enter verification code: ').strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
